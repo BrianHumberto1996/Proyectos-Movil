@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/lbl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnCambiarIdioma"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:layout_x="-2dp"
+        android:layout_y="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/label2"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/lbl1"
+        app:layout_constraintRight_toRightOf="@+id/lbl1"
+        app:layout_constraintTop_toBottomOf="@+id/lbl1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_alignRight="@+id/btnCambiarIdioma" />
+
+    <EditText
+        android:id="@+id/lbl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/lbl3"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="58dp"
+        android:layout_x="0dp"
+        android:layout_y="129dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/label1"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/lbl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lbl1"
+        android:layout_below="@+id/lbl2"
+        android:layout_marginEnd="34dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="55dp"
+        android:layout_x="1dp"
+        android:layout_y="216dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/label3"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl2"
+        tools:layout_constraintTop_creator="1"
+        android:layout_alignRight="@+id/lbl1"
+        android:layout_marginRight="34dp" />
+
+    <Button
+        android:id="@+id/btnCambiarIdioma"
+        android:layout_width="342dp"
+        android:layout_height="153dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lbl1"
+        android:layout_marginLeft="94dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="70dp"
+        android:layout_x="119dp"
+        android:layout_y="524dp"
+        android:text="Cambiar idioma"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl3"
+        tools:layout_constraintTop_creator="1"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lbl1"
+        android:layout_below="@+id/btnCambiarIdioma"
+        android:layout_marginTop="164dp"
+        android:layout_x="40dp"
+        android:layout_y="409dp"
+        android:text="usted esta en modo tablet  de 7 pulgadas :)"
+        android:textSize="24sp"
+        android:layout_alignRight="@+id/lbl1" />
+
+</AbsoluteLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multiple-Supporte</string>
+    <string name="change">Switch language</string>
+    <string name="label1">Hello World!</string>
+    <string name="label2">Sample text</string>
+    <string name="label3">I study Android</string>
+</resources>

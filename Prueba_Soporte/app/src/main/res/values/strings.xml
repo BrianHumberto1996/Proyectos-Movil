@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prueba_Soporte</string>
+    <string name="change">Cambiar idioma</string>
+    <string name="label1">Hola Mundo!</string>
+    <string name="label2">Como estan!?</string>
+    <string name="label3">Saludos pa haya!!</string>
+
+    <string name="str_en" >English</string>
+    <string name="str_es" >Español</string>
+    <string name="str_pt" >Français</string>
+    <string-array name="Lenguajes">
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+        <item>@string/str_pt</item>
+    </string-array>
+
+</resources>
